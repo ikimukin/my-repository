@@ -12,6 +12,7 @@ wget ${FOLDER}/cat0.jpg
 wget ${FOLDER}/cat1.jpg
 wget ${FOLDER}/cat2.jpg
 
-
+systemctl start httpd
+systemctl enable httpd
 
 
